@@ -1,0 +1,27 @@
+.new-cack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 100px;
+}
+.new-cack h1 {
+  color: #dd4563;
+  font-size: 32px;
+  font-weight: 600;
+}
+.new-cack hr {
+  width: 200px;
+  height: 3px;
+  border-radius: 10px;
+  background: #ee1eaf;
+}
+.cack {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  margin-top: 60px;
+  gap: 50px;
+  width: 100%;
+  max-width: 1200px;
+  justify-items: center;
+}
