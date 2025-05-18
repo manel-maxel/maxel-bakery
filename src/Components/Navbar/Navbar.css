@@ -31,7 +31,6 @@
   justify-content: center;
   gap: 3px;
   cursor: pointer;
-
 }
 .nav-menu hr{
   border: none;
@@ -44,11 +43,10 @@
   display: flex;
   align-items: center;
   gap: 40px;
-
 }
 .nav-login-cart button{
-  width: 120px;
-  height: 48px;
+  width: 100px;
+  height: 44px;
   outline: none;
   border: 1PX solid #f45e5e ;
   border-radius: 75px ;

@@ -8,37 +8,37 @@ import p6_img from "./product_28.png";
 let new_cack = [
   {
     id: 12,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "",
     image: p1_img,
     new_price: 1500,
   },
   {
     id: 35,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "",
     image: p2_img,
     new_price: 450,
   },
   {
     id: 14,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "",
     image: p3_img,
     new_price: 300,
   },
   {
     id: 15,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "",
     image: p5_img,
     new_price: 100,
   },
   {
     id: 8,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "",
     image: p4_img,
     new_price: 4500,
   },
   {
     id: 28,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "",
     image: p6_img,
     new_price: 2000,
   },
