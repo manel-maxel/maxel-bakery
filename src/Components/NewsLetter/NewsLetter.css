@@ -41,6 +41,7 @@
 .newsletter div button{
   width: 160px;
   height: 70px;
+  border: none;
   border-radius: 80px;
   background: rgb(240, 119, 243);
   color:white;

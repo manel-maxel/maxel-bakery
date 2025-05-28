@@ -20,8 +20,8 @@
 }
 
 .popular-item {
-  margin-top: 50px;
-  width: 1040px;
+  margin-top:50px;
+  width: 80%;
   display: flex;
   gap: 90px;
 }
