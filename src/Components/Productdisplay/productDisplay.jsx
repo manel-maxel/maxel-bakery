@@ -24,7 +24,7 @@ const ProductDisplay = (props) => {
             {product.new_price}DA
           </div>
           <div className="productdisplay-right-description">
-             idont know for now
+             We create custom cakes tailored to your taste and style.<br/> Select any flavor, size, or decoration — the choice is all you
           </div>
           <div className="productdisplay-right-tasts">
              <h1>Select Tasts</h1>
