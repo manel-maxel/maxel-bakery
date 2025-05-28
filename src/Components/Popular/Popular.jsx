@@ -4,22 +4,33 @@ import data_product from '../Assets/data'
 import Item from '../Item/Item'
 
 const Popular = () => {
+  
+  if (!data_product || !Array.isArray(data_product)) {
+    return <div>No products available</div>;
+  }
+
   return (
     <div className='popular'>
       <h1>Birthday Bliss</h1>
       <hr />
       <div className='popular-item'>
-        {data_product.map((item) => (
-          <Item 
-            key={item.id}  
-            name={item.name}
-            image={item.image}
-            new_price={item.new_price}
-            old_price={item.old_price}
-          />
-        ))}
-      
-     </div>
+        {data_product.map((item) => {
+         
+          if (!item || !item.image) {
+            console.warn('Invalid item data:', item);
+            return null; 
+          }
+          return (
+            <Item 
+              key={item.id}  
+              name={item.name}
+              image={item.image}
+              new_price={item.new_price}
+              old_price={item.old_price}
+            />
+          );
+        })}
+      </div>
     </div>
   )
 }
