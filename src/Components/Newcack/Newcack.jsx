@@ -5,7 +5,7 @@ import Item from '../Item/Item1'
 const Newcack = () => {
   return (
     <div className='new-cack'>
-      <h1>New CACK</h1>
+      <h1>New CAKE</h1>
       <hr />
       <div className="cack">
          {new_cack.map((item) => (
