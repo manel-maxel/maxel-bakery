@@ -1,0 +1,42 @@
+.cake-page {
+  text-align: center;
+  padding: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cake-page h1 {
+ color: #dd4563;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.cake-image-container {
+  margin: 2rem 0;
+}
+
+.cake-image-container img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cake-page p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+ 
+}
+.cake-page button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #f76ed9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cake-page button:hover {
+  background-color: #ff5252;
+}

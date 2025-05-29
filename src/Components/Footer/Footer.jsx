@@ -20,10 +20,10 @@ const Footer = () => {
     </ul>
     <div className="footer-social-icon">
        <div className="footer-social-icon-container">
-        <a href="https://www.instagram.com/m._.n3l?igsh=cGU1eDhlOTJwbm9v" class="social-btn" target="_blank"><img src={instgram_icon} alt="" /></a>
+        <a href="https://www.instagram.com/m._.n3l?igsh=cGU1eDhlOTJwbm9v" class="social-btn" ><img src={instgram_icon} alt="" /></a>
          </div>
         <div className="footer-social-icon-container">
-          <a href="https://pin.it/2RRkbxLIR" class="social-btn" target="_blank"><img src={pintrest_icon} alt=""/></a>
+          <a href="https://pin.it/2RRkbxLIR" class="social-btn" ><img src={pintrest_icon} alt=""/></a>
         </div>
           <div className="footer-social-icon-container">
           <img src={whatsapp_icon} alt=""/>

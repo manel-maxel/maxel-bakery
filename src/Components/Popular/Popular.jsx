@@ -1,10 +1,11 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import './Popular.css'
 import data_product from '../Assets/data'
 import Item from '../Item/Item'
 
-const Popular = () => {
-  
+const Popular = ({ onBack }) => {
+  const navigate = useNavigate();
   if (!data_product || !Array.isArray(data_product)) {
     return <div>No products available</div>;
   }
@@ -22,11 +23,13 @@ const Popular = () => {
           }
           return (
             <Item 
-              key={item.id}  
+              key={item.id} 
+              id={item.id} 
               name={item.name}
               image={item.image}
               new_price={item.new_price}
               old_price={item.old_price}
+              onClick={() => navigate(`/product/${item.id}`)}
             />
           );
         })}
